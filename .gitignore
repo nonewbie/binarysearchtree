@@ -1,0 +1,6 @@
+*.session
+taglist
+tags
+*.[ao]
+*.h.gch
+*.out
