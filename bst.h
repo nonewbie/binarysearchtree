@@ -1,6 +1,7 @@
-#ifndef __TAOLIB__
-#include "/home/song/taolib/maclib.h"
-#endif
+#ifndef _BST_H_
+#define _BST_H_
+
+#include "../../taolib/maclib.h"
 
 /**
  * @brief	: binary search tree struct;
@@ -96,3 +97,4 @@ int freebst(struct BSTnode * pt);
  */
 int BSTdel(struct BSTnode *pt,const DataType key);
 
+#endif

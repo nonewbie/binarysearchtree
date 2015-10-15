@@ -114,7 +114,7 @@ void testdel()
 }
 int main()
 {
-	//testcreate();
+	testcreate();
 //	testvisit();
 	//testsearch();
 	//testdel();
