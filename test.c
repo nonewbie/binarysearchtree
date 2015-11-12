@@ -1,4 +1,4 @@
-#include "../arrdata/arr.h"
+#include "arrdata/arr.h" //include some function :create the array 
 #include "bst.h"
 #include <stdio.h>
 struct BSTnode * createbst()

@@ -1,7 +1,7 @@
 #ifndef _BST_H_
 #define _BST_H_
 
-#include "../../taolib/maclib.h"
+#include "taolib/maclib.h" //include some macro : _WHERE_
 
 /**
  * @brief	: binary search tree struct;

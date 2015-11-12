@@ -1,7 +1,7 @@
 #Thu Oct  1 01:23:56 PDT 2015
 CC = gcc
-arr_dir = ../arrdata
-taolib_dir = ../../taolib
+arr_dir = arrdata
+taolib_dir = taolib
 
 test : test.o bst.o $(arr_dir)/arr.o 
 	gcc -o test test.o bst.o $(arr_dir)/arr.o 
