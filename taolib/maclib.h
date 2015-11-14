@@ -1,4 +1,6 @@
-#define DataType int
+#ifndef _MACLIB_H
+#define _MACLIB_H
+typedef int DataType;
 #define COUNT 8
 #define RANGE 20
 
@@ -23,4 +25,6 @@
 #define __DIVIDING__( str ) do{ \
 	printf("********************" str "********************\n"); \
 }while(0)
+#endif
+
 #endif
